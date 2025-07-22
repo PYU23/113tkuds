@@ -7,7 +7,7 @@ public class Q3_NightMarketRanking {
         for (int i = 0; i < n; i++) {
             scores[i] = sc.nextDouble();
         }
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n - 1; i++) {//選擇排序法
             int maxIdx = i;
             for (int j = i + 1; j < n; j++) {
                 if (scores[j] > scores[maxIdx]) {
