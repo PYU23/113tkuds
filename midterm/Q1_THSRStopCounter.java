@@ -22,18 +22,15 @@ public class Q1_THSRStopCounter {
                 endIdx = i;
             }
         }
-
         if (startIdx == -1 || endIdx == -1) {
             System.out.println("Invalid");
         } else {
             int count = Math.abs(endIdx - startIdx) + 1;
             System.out.println(count);
-        
         sc.close();
     }
 }
 }
-
 /*
  * Time Complexity:O(n)
  * 走訪停靠站陣列一次尋找開始站的位置

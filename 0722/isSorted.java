@@ -1,4 +1,4 @@
-public class hk2 {
+public class isSorted {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5};
         int[] b = {1, 3, 2, 4, 5};
