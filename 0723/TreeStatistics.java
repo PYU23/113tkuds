@@ -62,13 +62,6 @@ class BinaryTree {
 public class TreeStatistics {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
-
-        // 建立一棵簡單的測試樹
-        //         10
-        //        /  \
-        //       5    20
-        //      / \     \
-        //     3   7     25
         tree.root = new TreeNode(10);
         tree.root.left = new TreeNode(5);
         tree.root.right = new TreeNode(20);
